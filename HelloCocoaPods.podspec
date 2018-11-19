@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.source_files = 'HelloCocoaPods/Classes/**/*'
   
   s.requires_arc = true
-  spec.swift_version = '4.2'
+  s.swift_version = '4.2'
   
 end

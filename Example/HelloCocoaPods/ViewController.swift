@@ -8,6 +8,8 @@
 
 import UIKit
 
+import HelloCocoaPods
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
