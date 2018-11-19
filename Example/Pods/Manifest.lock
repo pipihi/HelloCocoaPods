@@ -1,0 +1,16 @@
+PODS:
+  - HelloCocoaPods (0.1.0)
+
+DEPENDENCIES:
+  - HelloCocoaPods (from `../`)
+
+EXTERNAL SOURCES:
+  HelloCocoaPods:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HelloCocoaPods: 411d2d6a03a81b991e7e44311636d87859ea02f1
+
+PODFILE CHECKSUM: 63e6706b9763d6eaa5ebc0390e9a5cd549cb2086
+
+COCOAPODS: 1.5.3
