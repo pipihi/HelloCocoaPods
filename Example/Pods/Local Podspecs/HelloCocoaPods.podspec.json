@@ -1,15 +1,15 @@
 {
   "name": "HelloCocoaPods",
   "version": "0.1.0",
-  "summary": "A short description of HelloCocoaPods.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "一个支持CocoaPods开源库的例子.",
+  "description": "一个支持CocoaPods开源库的例子.（一定要比s.summary长）",
   "homepage": "https://github.com/pipihi/HelloCocoaPods",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "pipihi": "liugh2@adnonstop.com"
+    "码叔": "gh@codbo.cn"
   },
   "source": {
     "git": "https://github.com/pipihi/HelloCocoaPods.git",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HelloCocoaPods/Classes/**/*"
+  "source_files": "HelloCocoaPods/Classes/**/*",
+  "requires_arc": true,
+  "swift_version": "4.2"
 }

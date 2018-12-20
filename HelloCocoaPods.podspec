@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HelloCocoaPods'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '一个支持CocoaPods开源库的例子.'
 
   s.description      = <<-DESC

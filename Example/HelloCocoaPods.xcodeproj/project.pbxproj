@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		89AA270B313A65A33354A8E2 /* Pods_HelloCocoaPods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA15FBA70A9BA0D4D98583BF /* Pods_HelloCocoaPods_Example.framework */; };
-		BD2F0514ECE73F88E3034E9C /* Pods_HelloCocoaPods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E033532CB0784901ADD8BF6 /* Pods_HelloCocoaPods_Tests.framework */; };
+		7D2DAF9B8084B0AA965AB316 /* libPods-HelloCocoaPods_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C90EEC62DF3CDCF6BB76627 /* libPods-HelloCocoaPods_Tests.a */; };
+		F58837F856A006A11DE82092 /* libPods-HelloCocoaPods_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 528F66C10A02CE60D10C88B5 /* libPods-HelloCocoaPods_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		01D0AB1A3FE04FDDE2B3AB38 /* Pods-HelloCocoaPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaPods_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaPods_Example/Pods-HelloCocoaPods_Example.release.xcconfig"; sourceTree = "<group>"; };
-		0E033532CB0784901ADD8BF6 /* Pods_HelloCocoaPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCocoaPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528F66C10A02CE60D10C88B5 /* libPods-HelloCocoaPods_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloCocoaPods_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* HelloCocoaPods_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloCocoaPods_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,12 +41,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6AD2CA01469B50D8936D28B3 /* Pods-HelloCocoaPods_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaPods_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaPods_Tests/Pods-HelloCocoaPods_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C90EEC62DF3CDCF6BB76627 /* libPods-HelloCocoaPods_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloCocoaPods_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98B2F9E65A6E8323986D57AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C82B48BA37ED85DEC68924E4 /* Pods-HelloCocoaPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaPods_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaPods_Example/Pods-HelloCocoaPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CC8AA07FCAD1AFA10BEC3079 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D12547312875ECE6460576FA /* Pods-HelloCocoaPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloCocoaPods_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloCocoaPods_Tests/Pods-HelloCocoaPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E0812E4EC2BDA59DEB8CE753 /* HelloCocoaPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HelloCocoaPods.podspec; path = ../HelloCocoaPods.podspec; sourceTree = "<group>"; };
-		EA15FBA70A9BA0D4D98583BF /* Pods_HelloCocoaPods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloCocoaPods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89AA270B313A65A33354A8E2 /* Pods_HelloCocoaPods_Example.framework in Frameworks */,
+				F58837F856A006A11DE82092 /* libPods-HelloCocoaPods_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD2F0514ECE73F88E3034E9C /* Pods_HelloCocoaPods_Tests.framework in Frameworks */,
+				7D2DAF9B8084B0AA965AB316 /* libPods-HelloCocoaPods_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +142,8 @@
 		99AD7C695C18102881B506DE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EA15FBA70A9BA0D4D98583BF /* Pods_HelloCocoaPods_Example.framework */,
-				0E033532CB0784901ADD8BF6 /* Pods_HelloCocoaPods_Tests.framework */,
+				528F66C10A02CE60D10C88B5 /* libPods-HelloCocoaPods_Example.a */,
+				8C90EEC62DF3CDCF6BB76627 /* libPods-HelloCocoaPods_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,6 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				A4A63F1AA3567CCE0AA20ABF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -279,24 +278,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A4A63F1AA3567CCE0AA20ABF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaPods_Example/Pods-HelloCocoaPods_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/HelloCocoaPods/HelloCocoaPods.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HelloCocoaPods.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloCocoaPods_Example/Pods-HelloCocoaPods_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F0ED5DE081C0948CF6539028 /* [CP] Check Pods Manifest.lock */ = {
@@ -473,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ZCL78CB3E;
 				INFOPLIST_FILE = HelloCocoaPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = codbo.cn.demo;
@@ -489,6 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5ZCL78CB3E;
 				INFOPLIST_FILE = HelloCocoaPods/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = codbo.cn.demo;
